@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2 Day 2</title>
+    <link rel="stylesheet" href="B2_Day2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Sans+Display&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: hsl(0, 0%, 90%);">
+    <div class="khung">
+        <div class="form-content">
+                <h2>Login Form UI</h2>
+                <p>Please enter your user information</p>
+        </div>
+        <div>
+            <label class="email">Email</label>
+            <p> <input type="email" id="email" class="khung-input" placeholder="   Enter email here"/></p>
+            
+        </div>
+        <div>
+            <label class="email">Password</label>
+            <p><input type="password" id="password" class="khung-input" placeholder="   ****************"/></p>
+        </div>
+        <div>
+            <input type="checkbox" class="check"/>
+            <label class="label">Remember me</label>
+        </div>
+        <div>
+            <button type="submit" onclick="login()" class="sign-in khung-input"> Sign In</button>
+        </div>
+        <div class="end">
+            <a href="" style="color: blue;">Create An Account</a>
+            <a href="" class="plus">Forgot your password?</a>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
